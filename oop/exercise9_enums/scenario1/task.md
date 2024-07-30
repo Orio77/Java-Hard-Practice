@@ -1,0 +1,14 @@
+**Enhanced Scenario 1: Building a Weather Forecast Application with Enumerations and Advanced Features**
+
+- **Enhanced Task 1**: Design and implement an `WeatherCondition` enum in a language of your choice to represent various weather states. The enum should include at least the following states: `SUNNY`, `CLOUDY`, `RAINY`, `SNOWY`, `WINDY`. Each enum value should be associated with a string description, an integer representing the typical temperature range for that condition, and a method that calculates the likelihood of that weather condition occurring based on historical data.
+  _Potential Input_: None (This is a design and implementation task)
+  _Desired Output_: An implemented `WeatherCondition` enum with the specified states, associated data, and a method for calculating the likelihood of each weather condition.
+  _Coach Suggestions_: Start by defining the enum and the associated data. Research how to associate methods with enum values in your chosen language. The method for calculating the likelihood of a weather condition can be a simple formula based on hardcoded historical data for now.
+- **Enhanced Task 2**: Implement a method `getDetailedForecast(WeatherCondition condition)` that takes a `WeatherCondition` enum value and returns a detailed forecast message based on the enum value. The message should include the description, typical temperature range, and the calculated likelihood of the given weather condition.
+  _Potential Input_: `getDetailedForecast(WeatherCondition.SUNNY)`
+  _Desired Output_: "The weather is sunny with typical temperatures between 25 and 35 degrees. Based on historical data, there is a 30% chance of this condition."
+  _Coach Suggestions_: Use a switch statement or equivalent in your language to handle each enum value. Make sure to handle the case where the enum value is null or undefined. Use the method associated with each enum value to calculate the likelihood of the weather condition.
+- **Enhanced Task 3**: Implement a method `displayWeatherIcon(WeatherCondition condition)` that takes a `WeatherCondition` enum value and displays an icon corresponding to the weather condition. For the purpose of this task, you can simply return a string representing the icon. Additionally, implement a method `displayWeatherAnimation(WeatherCondition condition)` that displays an animation corresponding to the weather condition. For the purpose of this task, you can simply return a string representing the animation.
+  _Potential Input_: `displayWeatherIcon(WeatherCondition.CLOUDY)`, `displayWeatherAnimation(WeatherCondition.RAINY)`
+  _Desired Output_: "Cloudy Icon", "Rainy Animation"
+  _Coach Suggestions_: Similar to Task 2, use a switch statement or equivalent to handle each enum value. Consider how you would extend these methods if you were to add more weather conditions or more visual representations in the future.

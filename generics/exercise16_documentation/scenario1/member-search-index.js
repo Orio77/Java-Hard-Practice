@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"generics.exercise16.scenario1","c":"DataProcessor","l":"addData(T)"},{"p":"generics.exercise16.scenario1","c":"DataProcessor","l":"calculateSum()"},{"p":"generics.exercise16.scenario1","c":"DataProcessor","l":"DataProcessor()","u":"%3Cinit%3E()"},{"p":"generics.exercise16.scenario1","c":"DataProcessor","l":"processData()"}];updateSearchResults();

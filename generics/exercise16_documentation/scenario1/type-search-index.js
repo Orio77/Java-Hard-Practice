@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"generics.exercise16.scenario1","l":"DataProcessor"}];updateSearchResults();

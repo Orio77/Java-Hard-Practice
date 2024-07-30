@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"streamAPI.exercise4_collectors.scenario2","l":"Purchase"},{"p":"streamAPI.exercise4_collectors.scenario2","l":"ShopRight"}];updateSearchResults();

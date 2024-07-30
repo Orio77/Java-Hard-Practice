@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"streamAPI.exercise4_collectors.scenario2"}];updateSearchResults();
